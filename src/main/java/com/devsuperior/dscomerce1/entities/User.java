@@ -25,7 +25,7 @@ public class User {
 	@Column(unique = true)
 	private String email;
 	private String phone;
-	private LocalDate birdDate;
+	private LocalDate birthDate;
 	private String password;
 	
 	@OneToMany(mappedBy = "client")
@@ -35,13 +35,13 @@ public class User {
 		
 	}
 
-	public User(Long id, String name, String email, String phone, LocalDate birdDate, String password) {
+	public User(Long id, String name, String email, String phone, LocalDate birthDate, String password) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.phone = phone;
-		this.birdDate = birdDate;
+		this.birthDate = birthDate;
 		this.password = password;
 	}
 
@@ -77,12 +77,12 @@ public class User {
 		this.phone = phone;
 	}
 
-	public LocalDate getBirdDate() {
-		return birdDate;
+	public LocalDate getBirdhDate() {
+		return birthDate;
 	}
 
-	public void setBirdDate(LocalDate birdDate) {
-		this.birdDate = birdDate;
+	public void setBirdhDate(LocalDate birdDate) {
+		this.birthDate = birdDate;
 	}
 
 	public String getPassword() {
@@ -112,7 +112,7 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", email=" + email + ", phone=" + phone + ", birdDate=" + birdDate
+		return "User [id=" + id + ", name=" + name + ", email=" + email + ", phone=" + phone + ", birthDate=" + birthDate
 				+ ", password=" + password + "]";
 	}
 
