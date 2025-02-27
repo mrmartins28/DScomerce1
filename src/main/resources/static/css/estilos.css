@@ -1,0 +1,200 @@
+.container {
+margin: 0 auto;
+width: 940px;
+
+}
+.cabecario h1 {
+	padding-top : 15px;
+	
+	
+}
+.cabecario nav {
+	margin-right : 195px;
+}
+
+
+header {
+position: relative;
+
+color : #FFFFFF;
+height : 70px;
+padding : 20px:
+}
+
+
+
+.cabecario{
+background : #228B22;
+}
+
+.menu-opcoes ul li {
+display: inline;
+margin-left: 20px;
+color : #FFFFFF;
+line-height : 30px;
+text-decoration : none
+
+}
+.menu-opcoes img {
+
+width: 20px;
+height : 20px
+
+}
+
+
+
+.menu-opcoes a {
+
+color : #FFFFFF;
+}
+
+
+.menu-opcoes {
+
+position: absolute;
+bottom: 0;
+right: 0;
+}
+#button-addon1{
+width:30px;
+background-image: url(../img/busca.png);
+background-repeat: no-repeat;
+background-position : center
+}
+#button-addon2{
+width:30px;
+background-image: url(../img/fechar.png);
+background-repeat: no-repeat;
+background-position : center
+}
+
+.btn {
+
+width:70px;
+margin-top : 20px;
+}
+.form-control {
+height:40px;
+margin-top:22px;
+}
+
+table{
+	border-width : 2px;
+	background-color: #ffffff;
+	 border-radius: 0.375rem;
+}
+
+body{
+	background-color: #f5f5f5;
+}
+#figure-table img{
+	padding:2px;
+	
+}
+
+.form-produto{
+	
+	margin: 25px auto;
+	width: 440px;
+	background-color : #ffffff;
+	
+}
+
+.form-produto input {
+	
+	
+	width: 420px;
+	margin: 10px;
+	
+}
+
+#textarea-desc{
+	width: 420px;
+	margin: 10px;
+	height:80px;
+}
+#button-addon3{
+	text-decoration : none
+}
+
+.form-produto h1 {
+	font-size:100%;
+	text-align : center;
+}
+.form-produto button{
+	width: 180px;
+	margin: 10px;
+	margin-left:25px;
+	
+}
+
+#btn-carrinho {
+	background-color: transparent;
+	border : transparent;
+}
+
+.table a {
+	text-decoration : none
+}
+
+.product-detail{
+	
+	background-color: #ffffff;
+	margin-top: 20px;
+	width: 940px;
+}
+
+.product-detail img{
+	
+	height: 350px;
+	width: 350px;
+}
+
+.product-detail figure{
+	
+	margin-left : 300px;
+
+}
+
+.product-detail{
+	
+	border-color: #f5f5f5
+}
+.section-detail{
+	background-color: #ffffff;
+	margin-top: 20px;
+	width: 940px;
+}
+
+#preco{
+	color:#228B22;
+	font-size:28px;
+	
+}
+
+.detail-desc{
+	margin: 15px;
+}
+
+.list-categoria{
+	position: absolute;
+	display: inline;
+	vertical-align: top;
+	margin-left : 20px;
+	line-height : 30px;
+	text-decoration : none;
+	list-style-type:none;
+}
+.section-detail{
+	position : relative;
+}
+
+.list-categoria ul li{
+	clear:left;
+	bottom: 0;
+	left: 300px;
+	border : 2px;
+	
+}
+
